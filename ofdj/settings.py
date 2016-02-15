@@ -81,6 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'polls',
         'USER': 'polls',
+        'TEST_NAME': 'polls_tests',
         'PASSWORD': 'polls',
         'HOST': '127.0.0.1',
     }
